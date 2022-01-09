@@ -1,0 +1,129 @@
+/* GLOBAL STYLES */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    font-family: 'Rajdhani', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: radial-gradient(#fff, rgb(31, 48, 121));
+}
+
+/* CONTAINER STYLES */
+.container {
+    width: 100%;
+    max-width: 1000px;
+    position: relative;
+    /* border: solid #000 5px; */
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 2rem;
+    cursor: pointer;
+}
+
+/* HTML ZINA STYLES */
+.html__zina {
+    width: 80%;
+    padding: 1rem 0;
+    background-color: rgb(31, 48, 121);
+    border-radius: 0 12px 0 0;
+}
+.zina__title {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 3rem;
+}
+.zina__title img {
+    margin-left: 1rem;
+}
+
+/* CSS ZINA STYLES */
+.css__zina {
+    width: 70%;
+    padding: 1rem 0;
+    background-color: rgb(31, 48, 121);
+    border-radius: 0 12px 0 0;
+}
+
+/* JAVASCRIPT ZINA STYLES */
+.js__zina {
+    width: 60%;
+    padding: 1rem 0;
+    background-color: rgb(31, 48, 121);
+    border-radius: 0 12px 0 0;
+}
+
+/* REACT ZINA STYLES */
+.react__zina {
+    width: 50%;
+    padding: 1rem 0;
+    background-color: rgb(31, 48, 121);
+    border-radius: 0 12px 0 0;
+}
+/* DEVELOPER ZINA STYLES */
+.developer__zina {
+    width: 40%;
+    padding: 1rem 0;
+    background-color: rgb(31, 48, 121);
+    border-radius: 0 12px 0 0;
+}
+
+/* IMPORTANT METHODS */
+.z-index {
+    position: relative;
+    z-index: 20;
+    background-color: rgb(52, 69, 148);
+}
+.hidden {
+    display: none;
+}
+
+.standing-man {
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+}
+
+.finishing-man {
+    margin-left: 300px;
+    opacity: 0;
+}
+
+.darking {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 10;
+}
+
+.start-btn {
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    border: solid  3px rgb(31, 48, 121);
+    border-radius: 4px;
+    background-color: #fff;
+    padding: 0.2rem;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+.start-btn:hover {
+    border: solid brown 3px;
+}
